@@ -1,10 +1,10 @@
-# (c) @RknDeveloperr
+# (c) @oo7jatji
 # Rkn Developer 
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
+# Telegram Channel @oo7jatji & @WarriorUnitsBots
+# Developer @oo7jatji
 # Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+# Update Channel @Digital_Botz & @WarriorUnitsBots
 """
 Apache License 2.0
 Copyright (c) 2022 @Digital_Botz
@@ -170,7 +170,7 @@ async def doc(bot, update):
         suffix = await digital_botz.get_suffix(user_id)
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
     except Exception as e:
-        return await rkn_processing.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄️ Contact My Creator -> @RknDeveloperr\nError: {e}")
+        return await rkn_processing.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄️ Contact My Creator -> @oo7jatji\nError: {e}")
 
     # msg file location 
     file = update.message.reply_to_message
@@ -339,11 +339,11 @@ async def doc(bot, update):
     await remove_path(ph_path, file_path, dl_path, metadata_path)
     return await rkn_processing.edit("Uploaded Successfully....")
     
-#@RknDeveloper
+#@oo7jatji
 #✅ Team-RknDeveloper
 # Rkn Developer 
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
+# Telegram Channel @oo7jatji & @WarriorUnitsBots
+# Developer @oo7jatji
 # Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+# Update Channel @Digital_Botz & @WarriorUnitsBots
